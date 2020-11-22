@@ -22,7 +22,6 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.1</version>
     <configuration>
-      <compilerargument>-verbose</compilerargument>
       <source>1.6</source>
       <target>1.6</target>
     </configuration>
@@ -55,11 +54,10 @@
       <artifactId>lwjgl_util</artifactId>
       <version>2.9.0</version>
     </dependency>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.10</version>
-      <scope>test</scope>
-    </dependency>
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.13.1</version>
+      </dependency>
   </dependencies>
 </project>
